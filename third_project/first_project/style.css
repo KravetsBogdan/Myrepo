@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://memax.club/wp-content/uploads/2019/06/kartinki_na_zadniy_fon_1_12082347.jpg);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+img {
+    margin-left: 400px;
+}
+
+.bck{
+    font-family: Time New Roman;
+    border-style: dotted;
+    font-style: italic;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    background-image: url(https://saiup.org.ua/wp-content/uploads/2016/10/starry-sky-1.jpg);
+}
+
+.cont{
+    border-style: solid;
+    color: white;
+    background-image: url(https://www.meme-arsenal.com/memes/11c3633086e52e789e117705380ab339.jpg);
+}
