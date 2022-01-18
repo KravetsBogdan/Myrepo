@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    color: #070707;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0 0 40px;
+}
+
+.container{
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header .container{
+    padding: 23px 0 0 ;
+}
+
+.header .border-shadow{
+    display: block;
+    width: 100%;
+    background-color:#828282;
+    height: 1px;
+    box-shadow: 0 4px 4px 1px rgb(130 130 130 / 30%);
+}
+
+.nav-list{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-link{
+    font-size: 18px;
+    line-height: 25px;
+    color: #828282;
+    text-shadow:  2px 4px 4px rgb(130 130 130 / 50%);
+}
+
+.nav-link.active{
+    color: #070707;
+}
+
+.hero-section{
+    padding: 34px 0 100px;
+}
+
+.hero-section .image-hero img{
+    width: 100%;
+}
+
+.aboute-section{
+    background-color:#F6F6F6;
+    padding: 100px 0 100px;
+    text-align: center
+}
+
+.cont{
+    width: 100%;
+    max-width:940px;
+    margin: 0 auto;
+}
+
+.aboute-title{
+    width: 100%;
+    font-size: 34px;
+    line-height: 46px;
+    margin: 0 0 29px;
+}
+
+.skills-section{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 83px;
+}
+
+.skills-title{
+    font-size: 34px;
+    line-height: 46px;
+    margin: 0 0 45px;
+}
+
+.skills-text{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0 79px;
+}
+
+.skills-section li{
+    display: inline-block;
+    margin: 0 0 60px 84px;
+}
+
+.skills-section img{
+    margin: 0 0 24px;
+}
+
+.stars{
+    padding-top: 60px;
+}
+
+.portfolio-section{
+    text-align: center;
+    padding: 119px 0 101px 0;
+    background-color: #F6F6F6;;
+}
+
+.portfolio-title{
+    margin: 0 0 68px;
+}
+
+.portfolio-section .image-holder{
+    margin: 0 0 16px;
+}
+
+.portfolio-holder{
+    margin: 0 0 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
