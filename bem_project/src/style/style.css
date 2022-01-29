@@ -18,6 +18,7 @@ body{
     flex-wrap: wrap;
     width: 100%;
     width: 1140px;
+    margin: 0 auto;
 }
 
 .product-managers__image-holder, .product-managers__text-holder{
@@ -50,14 +51,21 @@ body{
     min-width: 385px;
 }
 
-li::before{
-    content: "#";
+.text-list__item::before{
     position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    left: -65px;
+    top: 5px;
     background: #FF9900;
     border-radius: 14px;
 }
 
-li::after{
-    content: "»";
-    color: red;
+.text-list__item::after{
+    position: absolute;
+    content: "\2714";
+    color: white;
+    left: -53px;
+    top: 9px;
 }
