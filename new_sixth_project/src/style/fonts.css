@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-black-webfont.woff') format('woff'),
+         url('../fonts/poppins-black-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-black-webfont.svg#poppinsblack') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-blackitalic-webfont.woff') format('woff'),
+         url('../fonts/poppins-blackitalic-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-blackitalic-webfont.svg#poppinsblack_italic') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+../fonts/
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff'),
+         url('../fonts/poppins-bold-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsbold_italic';
+    src: url('../fonts/poppins-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/poppins-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-bolditalic-webfont.svg#poppinsbold_italic') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
