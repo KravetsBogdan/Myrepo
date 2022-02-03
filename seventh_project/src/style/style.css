@@ -54,6 +54,10 @@ body{
     margin: 0 20px 0 0;
 }
 
+.button-holder{
+    margin: 0 0 22px;
+}
+
 .button-holder__btn{
     width: 100%;
     width: 500px;
@@ -61,4 +65,15 @@ body{
     border-radius: 6px;
     background: #007BFF;
     border: 1px solid #E4E4E4;
+}
+
+.description{
+    width: 100%;
+    width: 410px;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.border{
+    border-bottom: 1px solid #E4E4E4;
 }
