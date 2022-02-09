@@ -17,12 +17,16 @@
     margin:0 0 20px;
 }
 
-.footer .container{
-    border-top: 1px solid  rgba(188, 208, 229, 0.496913);
-    padding-top: 105px;
+.footer {
+    .container{
+        border-top: 1px solid  rgba(188, 208, 229, 0.496913);
+        padding-top: 105px;
+    }
 }
 
 
-.footer .flex-container{
-    justify-content: flex-end;
+.footer {
+    .flex-container{
+        justify-content: flex-end;
+    }
 }
