@@ -1,0 +1,40 @@
+.experience{
+    padding: 55px 0;
+
+    &__description{
+        color: #7690A8;
+        font-size: 16px;
+        line-height: 21px;
+        
+        &_lite{
+            line-height: 19px;
+        }
+    }
+
+    &__title{
+        padding: 17px 0 35px;
+    }
+
+    &__image{
+        margin: 0 0 28px;
+        border: 1px solid rgba(21, 101, 216, 0.1);
+        border-radius: 16px;
+        padding: 15px;
+    }
+
+    &__name{
+        padding: 0 0 14px;
+        font-size: 24px;
+        line-height: 21px;  
+    }
+
+    &__text-holder{
+        padding: 0 0 29px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+.border-box:hover{
+    border: 1px solid $hover-border;
+}
