@@ -1,0 +1,90 @@
+.design_thinking{
+    margin: 30px 0 110px;
+
+    @include breakpoint ('md'){
+        margin: 15px 0 80px;
+    }
+
+    @include breakpoint ('xs') {
+        font-size: 50px;
+    }
+
+    &__text-col, &__btn-item, &__img-col{
+        width: 50%;
+
+        @include breakpoint('md'){
+            width: 100%;
+        }
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 54px;
+        
+        @include breakpoint ('md'){
+            font-size: 30px;
+            text-align: center;
+        }
+
+        @include breakpoint ('xs'){
+            font-size: 28px;
+        }
+    }
+
+    &__text-holder{
+        width: 100%;
+        max-width: 458px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+
+        @include breakpoint ('md'){
+            text-align: center;
+            max-width: 768px;
+        }
+    }
+
+    &__btn-list{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 45px 0;
+
+        @include breakpoint ('md'){
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+
+        @include breakpoint ('xs'){
+            flex-wrap: nowrap;
+        }
+
+        @include breakpoint ('sm'){
+            align-items: center;        
+        }
+    }
+
+    &__btn-item{
+        align-items: center;
+    }
+
+}
+
+.btn-play{
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    color:$orange-back;
+
+    &__img{
+        padding: 0 9px;
+
+        @include breakpoint ('xxs'){
+            padding: 0 5px;
+        }
+    }
+
+    @include breakpoint ('xxs'){
+        
+    }
+}

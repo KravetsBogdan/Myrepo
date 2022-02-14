@@ -1,0 +1,68 @@
+.product-managers{
+    margin: 0 0 106px;
+
+    &__text-holder, &__img-holder{
+        width: 50%;
+
+        @include breakpoint ('md'){
+            width: 100%;
+        }
+    }
+
+    &__img-holder{
+        padding: 0 102px;
+
+        @include breakpoint ('md'){
+            order: 1;
+            padding: 0;
+        }
+    }
+    &__pseudo-title{
+        padding: 0 0 3px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__hero-title{
+        padding:  0 0 22px;
+        font-size: 36px;
+        line-height: 54px;
+    }
+    &__description{
+        padding: 0 0 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+.text-list__item{
+    padding: 0 0 30px;
+    width: 385px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 39px;
+}
+
+.text-list__item::before{
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    left: -65px;
+    top: 50%;
+    background: #FF9900;
+    border-radius: 14px;
+}
+
+.text-list__item::before{
+    position: absolute;
+    content: "\2714";
+    color: white;
+    left: -53px;
+    top: 9px;
+}
