@@ -1,9 +1,9 @@
 $(document).ready(() => {
     $('.nav-opener').on('click', function () {
-        if ($('.navigation').hasClass('active')) {
-            $('.navigation').removeClass('active');
+        if ($('.header').hasClass('active')) {
+            $('.header').removeClass('active');
         } else {
-            $('.navigation').addClass('active');
+            $('.header').addClass('active');
         }
     });
 });
