@@ -1,0 +1,17 @@
+.about{
+    text-align: center;
+    background-color: $white-grey;
+    padding: 100px 0;
+
+    &__title{
+        padding: 0 0 29px;
+    }
+
+    &__text-holder{
+        max-width: 480px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+}
