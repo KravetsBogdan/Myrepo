@@ -1,0 +1,23 @@
+.hero-section{
+    padding: 48px 0 130px;
+
+    @include breakpoint ('md'){
+        padding: 39px 0 56px;
+    }
+
+    @include breakpoint ('sm'){
+        padding: 39px 0 48px;
+    }
+
+    &__title{
+        font-size: 48px;
+        line-height: 64px;
+        padding: 0 0 64px;
+
+        @include breakpoint ('md'){
+            font-size: 33px;
+            line-height: 50px;
+            padding:0 0 52px;
+        }
+    }
+}
