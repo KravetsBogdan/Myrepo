@@ -1,0 +1,14 @@
+.places-section{
+    background-color: $black;
+    padding: 46px 0 115px;
+
+    &__holder{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__img{
+        width: 60px;
+        height: 60px;
+    }
+}
