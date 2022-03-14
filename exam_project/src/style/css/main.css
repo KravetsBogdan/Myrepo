@@ -245,10 +245,14 @@ img {
 }
 .hero-section__input {
   width: calc(100% - 153px);
-  background-color: #fff;
   height: 63px;
   border: none;
   outline: none;
+}
+@media (max-width: 359px) {
+  .hero-section__input {
+    width: 150px;
+  }
 }
 .hero-section__input::-webkit-input-placeholder {
   text-align: center;
@@ -337,20 +341,44 @@ img {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+.places-section__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .places-section__img {
   width: 60px;
   height: 60px;
+  margin: 0 0 20px;
+}
+@media (max-width: 359px) {
+  .places-section__img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 567px) {
+  .places-section__description {
+    text-align: center;
+  }
 }
 
 .choose-section {
   background-image: url(/src/image/back-choose.png);
   width: 100%;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   padding: 0 0 117px;
 }
 @media (max-width: 768px) {
   .choose-section {
-    padding: 0;
+    padding: 0 0 100px;
   }
 }
 .choose-section .container {
@@ -381,7 +409,11 @@ img {
 }
 @media (max-width: 768px) {
   .choose-section__img-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding: 0;
+    width: 50%;
   }
 }
 .choose-section__title {
@@ -412,9 +444,15 @@ img {
     margin: 0 0 0 140px;
   }
 }
+@media (max-width: 1023px) {
+  .choose-section__img {
+    margin: 0 0 0 100px;
+  }
+}
 @media (max-width: 768px) {
   .choose-section__img {
     margin: 0;
+    padding: 0 0 0 20px;
   }
 }
 .choose-section__img_house {
@@ -426,20 +464,47 @@ img {
     margin: 0 0 10px 70px;
   }
 }
+@media (max-width: 1023px) {
+  .choose-section__img_house {
+    margin: 0 0 10px 50px;
+  }
+}
 @media (max-width: 768px) {
   .choose-section__img_house {
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0;
   }
 }
 
 .spain-section {
   background-image: url(/src/image/spain-house.png);
+  background-repeat: no-repeat;
   padding: 227px 0 90px;
+}
+@media (max-width: 768px) {
+  .spain-section {
+    padding: 210px 0 90px;
+  }
+}
+@media (max-width: 639px) {
+  .spain-section {
+    padding: 60px 0;
+  }
 }
 .spain-section_mountain {
   background-image: url(/src/image/spain-mountain.png);
+  background-repeat: no-repeat;
   padding: 227px 0 90px;
+}
+@media (max-width: 768px) {
+  .spain-section_mountain {
+    padding: 210px 0 90px;
+  }
+}
+@media (max-width: 639px) {
+  .spain-section_mountain {
+    padding: 60px 0;
+  }
 }
 .spain-section_mountain .container {
   display: -webkit-box;

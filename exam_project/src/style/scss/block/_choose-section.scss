@@ -1,11 +1,11 @@
 .choose-section{
     background-image: url(/src/image/back-choose.png);
     width: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     padding: 0 0 117px;
 
     @include breakpoint ('md'){
-        padding: 0;
+        padding: 0 0 100px;
     }
 
     .container{
@@ -33,7 +33,9 @@
         padding: 117px 0 0;
 
         @include breakpoint ('md'){
+            display: flex;
             padding: 0;
+            width: 50%;
         }
     }
 
@@ -65,8 +67,13 @@
             margin: 0 0 0 140px;
         }
 
+        @include breakpoint ('my'){
+            margin: 0 0 0 100px;
+        }
+
         @include breakpoint ('md'){
             margin: 0;
+            padding: 0 0 0 20px;
         }
 
         &_house{
@@ -77,9 +84,13 @@
                 margin: 0 0 10px 70px;
             }
 
+            @include breakpoint ('my'){
+                margin: 0 0 10px 50px;
+            }
+
             @include breakpoint ('md'){
                 margin: 0;
-                padding: 0 0 20px;
+                padding: 0
             }
         }
     }

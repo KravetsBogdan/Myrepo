@@ -1,10 +1,28 @@
 .spain-section{
     background-image: url(/src/image/spain-house.png);
+    background-repeat: no-repeat;
     padding: 227px 0 90px;
+
+    @include breakpoint ('md'){
+        padding: 210px 0 90px;
+    }
+
+    @include breakpoint ('sm'){
+        padding: 60px 0;
+    }
 
     &_mountain{
         background-image: url(/src/image/spain-mountain.png);
+        background-repeat: no-repeat;
         padding: 227px 0 90px;
+
+        @include breakpoint ('md'){
+            padding: 210px 0 90px;
+        }
+
+        @include breakpoint ('sm'){
+            padding: 60px 0;
+        }
         .container{
             display: flex;
             justify-content: flex-end;

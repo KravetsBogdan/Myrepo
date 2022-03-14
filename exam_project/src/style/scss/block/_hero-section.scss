@@ -34,10 +34,13 @@
 
     &__input{
         width: calc(100% - 153px);
-        background-color: $white;
         height: 63px;
         border: none;
         outline: none;
+
+        @include breakpoint ('xxs'){
+            width: 150px;
+        }
 
         &::placeholder{
             text-align: center;
